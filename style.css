@@ -2,38 +2,62 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arapey', serif;
+    background-color: white;
+}
+
+.composition {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    height: 66vh;
     background-color: #EFEFEF;
+}
+
+.poem {
+    background-color: #A0BDC4;
+    margin-right: 0;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    padding: 5vw;
+    color: #EBE8E8;
+    font-size: 1.75vw;
     
 }
+.thoughts {
+    font-size: 12vw;
+    font-style: italic;
+    color: #7E7B7B;
+    margin-top: 260px;
+    margin-left: 50px;
+}
+.author {
+    font-size: 3vw;
+    color: #7E7B7B;
+    margin-left: 35px;
+    margin-top: 1px;
+}
+
+.spacer {
+    display: inline-block;
+    min-width: 13px;
+  }
 
 
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
       background-color: #EFEFEF;
+      display: grid;
+      grid-template-columns: 1fr;
     }
+}   
 
-    .thoughts {
-        font-size: 30vw;
-        margin: ;
-    }
-
-    .author {
-        font-size: 10vw;
-        margin: ;
-    }
-
-    .poem {
-        background-color: #A0BDC4;
-        margin-right: 0;
-    }
-
-    .standza-one {
-        margin: auto;
-    }
-
-
+    
 @media screen and (max-width: 768px) {
      body {
         background-color: #EFEFEF;
-    }
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+}
