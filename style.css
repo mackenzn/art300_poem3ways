@@ -8,7 +8,7 @@ body {
 .composition {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 100px;
     height: 66vh;
     background-color: #EFEFEF;
 }
@@ -16,10 +16,9 @@ body {
 .poem {
     background-color: #A0BDC4;
     margin-right: 0;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-bottom: auto;
-    margin-left: auto;
-    padding: 5vw;
+    padding: 60px;
     color: #EBE8E8;
     font-size: 1.75vw;
     
