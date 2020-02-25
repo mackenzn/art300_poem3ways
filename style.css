@@ -1,4 +1,39 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Arapey', serif;
+    background-color: #EFEFEF;
+    
 }
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+      background-color: #EFEFEF;
+    }
+
+    .thoughts {
+        font-size: 30vw;
+        margin: ;
+    }
+
+    .author {
+        font-size: 10vw;
+        margin: ;
+    }
+
+    .poem {
+        background-color: #A0BDC4;
+        margin-right: 0;
+    }
+
+    .standza-one {
+        margin: auto;
+    }
+
+
+@media screen and (max-width: 768px) {
+     body {
+        background-color: #EFEFEF;
+    }
